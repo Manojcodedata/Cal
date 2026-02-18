@@ -11,8 +11,6 @@ operator = st.selectbox("Operator",['+','-','*','/','%'])
 
 submit = st.button("Answer")
 
-st.write(submit)
-
 if submit:
     if operator=='+':
         ans = addition(a,b)
