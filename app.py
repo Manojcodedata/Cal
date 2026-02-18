@@ -24,6 +24,8 @@ if submit:
         ans = modulus(a,b)
     elif operator=='power':
         ans = power(a,b)
+    elif operator=='+++':
+        ans=add3(a,b,b)
 
     st.write(f"The answer is {ans}")
 
