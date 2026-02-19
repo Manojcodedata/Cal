@@ -28,6 +28,13 @@ if submit:
         ans = floor_division(a,b)   
     elif operator=='square_root':       
         ans = square_root(a)
+    elif operator=='cube_root':
+        ans = cube_root(a)
+    elif operator=='logarithm':
+        base = st.number_input("Enter the base for logarithm")
+        ans = logarithm(a,base)
+    elif operator=='exponential':
+        ans = exponential(a)
 
     st.write(f"The answer is {ans}")
 
