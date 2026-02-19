@@ -28,4 +28,3 @@ if submit:
         ans=add3(a,b,b)
 
     st.write(f"The answer is {ans}")
-
