@@ -7,7 +7,7 @@ st.write("This is the app for calculator")
 a = st.number_input("Enter first number")
 b = st.number_input("Enter second number")
 
-operator = st.selectbox("Operator",['+','-','*','/','%','power'])
+operator = st.selectbox("Operator",['+','-','*','/','%','power','square'])
 
 submit = st.button("Answer")
 
@@ -24,6 +24,8 @@ if submit:
         ans = modulus(a,b)
     elif operator=='power':
         ans = power(a,b)
+    elif operator=='square':
+        ans = squares(a)
 
     st.write(f"The answer is {ans}")
 
