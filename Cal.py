@@ -15,3 +15,6 @@ def modulus(a,b):
 
 def power(a,b):
     return a**b
+
+def squares(a,b):
+    return f"{a} square is {a**2} and {b} square is {b**2}"
