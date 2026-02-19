@@ -24,6 +24,10 @@ if submit:
         ans = modulus(a,b)
     elif operator=='power':
         ans = power(a,b)
+    elif operator=='floor_division':
+        ans = floor_division(a,b)   
+    elif operator=='square_root':       
+        ans = square_root(a)
 
     st.write(f"The answer is {ans}")
 

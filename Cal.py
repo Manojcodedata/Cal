@@ -15,3 +15,7 @@ def modulus(a,b):
 
 def power(a,b):
     return a**b
+def floor_division(a,b):
+    return a//b 
+def square_root(a):
+    return a**0.5
