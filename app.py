@@ -19,11 +19,13 @@ if submit:
     elif operator=='*':
         ans = multiply(a,b)
     elif operator=='/':
-        ans = divide(a,b)
+        ans = dividgite(a,b)
     elif operator=='%':
         ans = modulus(a,b)
     elif operator=='power':
         ans = power(a,b)
+    elif operator=='squares':
+        ans = squares(a,b)
 
     st.write(f"The answer is {ans}")
 
